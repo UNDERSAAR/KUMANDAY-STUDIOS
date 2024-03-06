@@ -9,6 +9,6 @@ Currently, two official plugins are available:
 
 # Front End Tools
 
-Lenis Smooth Scrolling
-GreenSock Animation Platform
-Radix UI Primitive
+- Lenis Smooth Scrolling
+- GreenSock Animation Platform
+- Radix UI Primitive
