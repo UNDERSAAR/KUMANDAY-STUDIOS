@@ -12,3 +12,4 @@ Currently, two official plugins are available:
 - Lenis Smooth Scrolling
 - GreenSock Animation Platform
 - Radix UI Primitive
+- Split Type
