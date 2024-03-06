@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 140px;
+}
+
+.navbar .items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .items img{
+    width: 60px;
+}
+
+.navbar .items .subitems {
+    font-size: 14px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
