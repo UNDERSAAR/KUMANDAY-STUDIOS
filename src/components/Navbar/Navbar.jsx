@@ -9,15 +9,15 @@ const Navbar = () => {
       const animation = gsap.from(items, {
         y: -10,
         stagger: 0.4,
-        delay: 4,
+        delay: 3,
         duration: 1,
         opacity: 0
       });
 
       const animation2 = gsap.from('.line', {
         scaleX: 0,
-        delay: 3.5,
-        duration: 1,
+        delay: 3,
+        duration: 1.6,
         opacity: 0
       })
 
