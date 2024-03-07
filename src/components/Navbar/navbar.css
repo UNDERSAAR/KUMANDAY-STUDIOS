@@ -22,8 +22,12 @@
     align-items: center;
 }
 
-.navbar .items img{
+#Capa_1 {
     width: 60px;
+}
+
+.cls-1 {
+    stroke-width: 1px;
 }
 
 .navbar .items .subitems {
