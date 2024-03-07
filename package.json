@@ -12,6 +12,7 @@
   "dependencies": {
     "@radix-ui/primitive": "^1.0.1",
     "@studio-freight/react-lenis": "^0.0.45",
+    "framer-motion": "^11.0.8",
     "gsap": "^3.12.5",
     "gsap-trial": "^3.12.5",
     "react": "^18.2.0",
