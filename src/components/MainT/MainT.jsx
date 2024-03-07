@@ -25,12 +25,11 @@ const MainT = () => {
       opacity: 0
     });
 
-    // Cleanup function
     return () => {
-      animation.kill(); // Kill the first animation when component unmounts
-      animation2.kill(); // Kill the second animation when component unmounts
+      animation.kill(); 
+      animation2.kill();
     };
-  }, []); // Run effect only once after initial render
+  }, []);
 
   return (
     <div className="maint">
