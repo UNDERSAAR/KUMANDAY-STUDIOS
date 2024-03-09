@@ -56,11 +56,10 @@ const Navbar = () => {
             animate="visible"
           />
         </svg>
-        <div className="subitems">
-          <a href="#" >SOBRE NOSOTROS</a>
+        <div className="subitems" id="subitems">
+          <a href="#">SOBRE NOSOTROS</a>
           <a href="#">PROYECTOS</a>
           <a href="#">CONTACTO</a>
-          <a href="#">MENU</a>
         </div>
       </div>
     </div>

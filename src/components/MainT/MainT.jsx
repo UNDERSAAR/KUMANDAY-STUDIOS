@@ -33,11 +33,11 @@ const MainT = () => {
 
   return (
     <div className="maint">
-      <div className="uppert">
-        <h4 id="text" ref={textRef}>MANIZALES, <h3>COLOMBIA.</h3></h4>
+      <div className="uppert" id="uppert">
+        <h4 id="text" ref={textRef}>MANIZALES, <h3 id="text2">COLOMBIA.</h3></h4>
       </div>
-      <div className="lowert">
-        <h4>KUMANDAY</h4><h3>STUDIOS</h3>
+      <div className="lowert" id="lowert">
+        <h4 id="text3">KUMANDAY</h4><h3 id="text4">STUDIOS</h3>
       </div>
     </div>
   );

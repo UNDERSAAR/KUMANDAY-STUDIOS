@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <MainT />
+      <MainT/>
       <Mount />
     </div>
   )

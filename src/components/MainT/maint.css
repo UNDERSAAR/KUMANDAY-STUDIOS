@@ -59,3 +59,52 @@
 .maint .lowert h3 {
     font-weight: 300;
 }
+
+@media only screen and (max-width: 1070px) {
+    #text, #text2 {
+        font-size: 14px;
+    }
+    #text3, #text4 {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .maint {
+        right: 80px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .maint {
+        right: 40px;
+    }
+    #text, #text2 {
+        font-size: 12px;
+    }
+    #text3, #text4 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #text, #text2 {
+        line-height: 20px;
+    }
+    #text3, #text4 {
+        font-size: 70px;
+    }
+    #uppert {
+        justify-content: center;
+    }
+    #lowert {
+        justify-content: center;
+        align-items: center;
+    }
+    .maint {
+        right: unset;
+        bottom: 340px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

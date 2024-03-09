@@ -15,8 +15,10 @@ const Mount = () => {
   }, []);
   
   return (
-    <div className="mount">
+    <div className="mounto">
+      <div className="mount">
         <img src={msvg} alt="Montaña" />
+      </div>
     </div>
   );
 };
