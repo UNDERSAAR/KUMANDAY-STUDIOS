@@ -10,7 +10,7 @@ const MainT = () => {
     const text = new SplitType('#text', { types: 'chars' });
     const text2 = new SplitType('.lowert', { types: 'words' });
 
-    const animation = gsap.from(text.chars, {
+    let animation = gsap.from(text.chars, {
       y: -10,
       stagger: 0.08,
       delay: 1.6,
@@ -18,7 +18,7 @@ const MainT = () => {
       opacity: 0
     });
 
-    const animation2 = gsap.from(text2.words, {
+    let animation2 = gsap.from(text2.words, {
       x: -50,
       stagger: 0.6,
       duration: 1.2,
