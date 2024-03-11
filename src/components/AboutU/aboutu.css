@@ -1,0 +1,58 @@
+.aboutu {
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    padding: 0 140px;
+    gap: 40px;
+    font-size: 30px;
+}
+
+.aboutu .abdata {
+    flex: 3;
+    height: calc( 100vh - 100px );
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aboutu .abdata .abtext {
+    flex: 2;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.aboutu .abdata .abpic {
+    flex: 3;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.aboutu .abeach {
+    flex: 5;
+    height: calc( 100vh - 100px );
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aboutu .abeach .abesp {
+    flex: 5;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+}
+
+.aboutu .abeach .abtools {
+    flex: 2;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+}

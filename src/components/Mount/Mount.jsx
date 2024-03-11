@@ -5,10 +5,12 @@ import gsap from 'gsap';
 
 const Mount = () => {
   useEffect(() => {
-    const animation = gsap.from('.mount', {
+    
+    let animation = gsap.from('.mount', {
       opacity: 0,
       duration: 4,
     });
+
     return () => {
       animation.revert();
     };
