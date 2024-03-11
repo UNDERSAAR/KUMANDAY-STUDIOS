@@ -2,7 +2,7 @@ import React from 'react'
 import './aboutu.css'
 
 const AboutU = () => {
-  return (
+return (
     <div className="aboutu">
         <div className="abdata">
             <div className="abtext">
